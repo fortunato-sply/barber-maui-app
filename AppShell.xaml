@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Barber.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Barber"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Menu"
+        ContentTemplate="{DataTemplate local:Login}"
+        Route="Login" />
+
+</Shell>
+
